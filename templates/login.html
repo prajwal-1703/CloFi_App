@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>Login</h2>
+
+  <!-- Inserted Image -->
+
+  <form method="post" class="card form">
+
+    <label>Email
+      <input type="email" name="email" required>
+    </label>
+    <label>Password
+      <input type="password" name="password" required>
+    </label>
+    <button type="submit" class="btn">Login</button>
+  </form>
+{% endblock %}
